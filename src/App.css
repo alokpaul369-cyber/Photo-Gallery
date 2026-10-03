@@ -1,0 +1,5 @@
+/* Layout helpers for the photo gallery shell */
+
+.app-shell {
+  min-height: 100vh;
+}
