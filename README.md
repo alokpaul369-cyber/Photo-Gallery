@@ -1,16 +1,28 @@
-# React + Vite
+# 🖼️ Photo Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive photo gallery built with **React, Vite and Tailwind CSS**. Photos are fetched from the JSONPlaceholder API and can be searched, filtered by album and opened in a preview.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-CSS?style=flat-square&logo=06B6D4&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 📡 Fetches photos from an API with loading & error states
+- 🔍 Live search by title
+- 🗂️ Filter by album
+- 🔎 Click a photo to view it larger
+- 📱 Fully responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+git clone https://github.com/alokpaul369-cyber/Photo-Gallery.git
+cd Photo-Gallery
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Open the URL Vite prints (usually **http://localhost:5173**).
+
+---
+
+<p align="center">Made with ❤️ by <a href="https://github.com/alokpaul369-cyber">Alok Paul</a></p>
